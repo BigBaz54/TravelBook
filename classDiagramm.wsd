@@ -37,15 +37,15 @@ class StageModel extends Observed {
     {method} loadPage(i: int)
 }
 
-class BookControler {
+class BookController {
 
 }
 
-class PageControler {
+class PageController {
 
 }
 
-class StageControler {
+class StageController {
 
 }
 
@@ -70,9 +70,9 @@ class StickerView implements PageObserver{
 
 }
 
-StageControler -- StageModel
-BookControler -- BookModel
-PageModel -- PageControler
+StageController -- StageModel
+BookController -- BookModel
+PageModel -- PageController
 
 StageObserver -- StageModel
 PageObserver -- PageModel
