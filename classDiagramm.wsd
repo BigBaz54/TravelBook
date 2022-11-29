@@ -79,6 +79,8 @@ PageObserver -- PageModel
 BookObserver -- BookModel
 GlobalView -- StickerView
 
+BookModel --- PageModel
+
 Observed -- Observer
 
 @enduml
