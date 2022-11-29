@@ -1,0 +1,84 @@
+@startuml class
+
+interface Observer {
+    {method} refresh()
+}
+
+interface BookObserver implements Observer {
+    
+}
+
+interface PageObserver implements Observer {
+
+}
+
+interface StageObserver implements Observer {
+    
+}
+
+abstract class Observed {
+    {method} addObs()
+    {method} alertObs() 
+}
+
+class BookModel extends Observed {
+
+}
+
+class PageModel extends Observed {
+
+}
+
+class StageModel extends Observed {
+    - activeScene: int
+    - globalScene: Scene
+    - pageScene: Scene
+    {method} switchToScene(i: int)
+    {method} loadPage(i: int)
+}
+
+class BookControler {
+
+}
+
+class PageControler {
+
+}
+
+class StageControler {
+
+}
+
+class GlobalView implements BookObserver {
+
+}
+
+class PageView implements PageObserver {
+
+}
+
+class StageView implements StageObserver {
+
+}
+
+class StageView {
+    - mainStage: Stage
+
+}
+
+class StickerView implements PageObserver{
+
+}
+
+StageControler -- StageModel
+BookControler -- BookModel
+PageModel -- PageControler
+
+StageObserver -- StageModel
+PageObserver -- PageModel
+BookObserver -- BookModel
+GlobalView -- StickerView
+
+Observed -- Observer
+
+@enduml

@@ -1,0 +1,19 @@
+1 stage
+
+2 scene : 
+	- 1 avec la GlobalView
+	- 1 avec la PageView
+
+GlobalView est un Observer du BookModel
+
+PageView est un Observer d'UN des PageModel, qui change selon la page que l'on veut afficher.
+
+La sauvegarde de la scene courante est faite par un SceneModel qui garde en mémoire la scene affichée : exemple :
+	- 0 pour la vue globale
+	- 1 à n pour les vues des pages
+
+L'édition du carnet se fait avec un BookControler
+
+Les changements de vue se font avec un SceneControler*
+
+FXML de StickerView include dans FXML GlobalView
