@@ -31,10 +31,6 @@ class PageModel extends Observed {
 
 class StageModel extends Observed {
     - activeScene: int
-    - globalScene: Scene
-    - pageScene: Scene
-    {method} switchToScene(i: int)
-    {method} loadPage(i: int)
 }
 
 class BookController {
@@ -46,6 +42,7 @@ class PageController {
 }
 
 class StageController {
+    {method} switchToScene(i: int)
 
 }
 
@@ -58,12 +55,10 @@ class PageView implements PageObserver {
 }
 
 class StageView implements StageObserver {
-
-}
-
-class StageView {
     - mainStage: Stage
-
+    - globalScene: Scene
+    - pageScene: Scene
+    {method} loadPage(i: int)
 }
 
 class StickerView implements PageObserver{
