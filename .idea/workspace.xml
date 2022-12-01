@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a93e7d84-b794-404d-937b-9c0bc4245b7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classDiagramm.wsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/CardColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/CardValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/DeckOfCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/DeckView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/DefaultShuffle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/DefaultShuffleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/FisherYatesShuffle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/FisherYatesShuffleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/NextCardCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Observed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/RandomCardCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/ShuffleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/ShuffleStrategy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +83,7 @@
       <recent name="C:\Users\LV\OneDrive\Bureau\tp2-capelli6u\src\travelBook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.tp2-capelli6u [run]">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eu.telecomnancy.travelBook.Main" />
-      <module name="TravelBook" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="tp2-capelli6u [run]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,10 +105,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Gradle.tp2-capelli6u [run]" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,6 +122,7 @@
       <workItem from="1669882866598" duration="601000" />
       <workItem from="1669883540160" duration="787000" />
       <workItem from="1669884409782" duration="145000" />
+      <workItem from="1669884634336" duration="283000" />
     </task>
     <servers />
   </component>
