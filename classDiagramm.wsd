@@ -1,18 +1,18 @@
 @startuml class
 
 interface Observer {
-    {method} refresh()
+    {method} react()
 }
 
-interface BookObserver implements Observer {
+abstract class BookObserver implements Observer {
     
 }
 
-interface PageObserver implements Observer {
+abstract class PageObserver implements Observer {
 
 }
 
-interface StageObserver implements Observer {
+abstract class StageObserver implements Observer {
     
 }
 
@@ -22,7 +22,10 @@ abstract class Observed {
 }
 
 class BookModel extends Observed {
-
+    - title: String
+    - author: String
+    - startDate: Date
+    - endDate: Date
 }
 
 class PageModel extends Observed {
@@ -31,6 +34,8 @@ class PageModel extends Observed {
 
 class StageModel extends Observed {
     - activeScene: int
+    {method} setActiveScene(int activeScene)
+    {method} getActiveScene()
 }
 
 class BookController {
@@ -46,33 +51,43 @@ class StageController {
 
 }
 
-class GlobalView implements BookObserver {
+class GlobalScene extends BookObserver {
+    {method} getScene()
 
 }
 
-class PageView implements PageObserver {
-
-}
-
-class StageView implements StageObserver {
-    - mainStage: Stage
-    - globalScene: Scene
-    - pageScene: Scene
+class PageScene extends PageObserver {
+    {method} getScene()
     {method} loadPage(i: int)
 }
 
-class StickerView implements PageObserver{
+class FirstPage extends BookObserver {
+    
+}
+
+class StageView extends StageObserver {
+    - mainStage: Stage
+}
+
+class StickerView extends PageObserver {
 
 }
 
 StageController -- StageModel
+StageController -- PageScene
+StageController -- GlobalScene
 BookController -- BookModel
+BookController -- BookObserver
 PageModel -- PageController
 
 StageObserver -- StageModel
 PageObserver -- PageModel
 BookObserver -- BookModel
-GlobalView -- StickerView
+GlobalScene -- StickerView
+StageView -- BookModel
+
+StageView -- GlobalScene
+StageView -- PageScene
 
 BookModel --- PageModel
 
