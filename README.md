@@ -1,4 +1,4 @@
-## TP2 - TravelBook
+## TP #2 - TravelBook
 Application JavaFX qui permet de tenir un carnet de voyage.
 
 # Aperçu
