@@ -6,79 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a93e7d84-b794-404d-937b-9c0bc4245b7a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classDiagramm.wsd" beforeDir="false" afterPath="$PROJECT_DIR$/classDiagramm.wsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/telecomnancy/travelBook/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/DeckView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/globalScene.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/10_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/10_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/10_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/10_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/2_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/2_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/2_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/2_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/3_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/3_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/3_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/3_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/4_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/4_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/4_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/4_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/5_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/5_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/5_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/5_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/6_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/6_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/6_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/6_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/7_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/7_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/7_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/7_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/8_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/8_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/8_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/8_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/9_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/9_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/9_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/9_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/ace_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/ace_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/ace_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/ace_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/ace_of_spades2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/black_joker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_clubs2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_diamonds2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_hearts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/jack_of_spades2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_clubs2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_diamonds2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_hearts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/king_of_spades2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_clubs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_clubs2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_diamonds2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_hearts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_hearts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_spades.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/queen_of_spades2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eu/telecomnancy/travelBook/images/red_joker.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +23,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TravelBook" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -216,6 +153,7 @@
       <workItem from="1671879720002" duration="648000" />
       <workItem from="1672430133201" duration="9442000" />
       <workItem from="1672482793432" duration="22127000" />
+      <workItem from="1679337975476" duration="271000" />
     </task>
     <servers />
   </component>
